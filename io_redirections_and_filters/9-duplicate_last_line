@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /tmp/iacta | sort | tail -n 1 | uniq -f 1
+cat iacta | sort | tail -n 1 | uniq -d
