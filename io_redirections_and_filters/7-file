@@ -1,2 +1,2 @@
 #!/bin/bash
-emacs \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+touch \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) | emacs Best School
