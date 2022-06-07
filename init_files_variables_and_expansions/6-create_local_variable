@@ -1,2 +1,2 @@
 #!/bin/bash 
-$VARNAME BEST="School"
+eccho $VARNAME BEST="School"
