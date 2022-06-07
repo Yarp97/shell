@@ -1,2 +1,2 @@
 #!/bin/bash 
-export PATH=$PATH:"count"
+export PATH=$PATH:"find . -type d | wc -l"
