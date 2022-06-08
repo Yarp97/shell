@@ -1,2 +1,2 @@
 #!/bin/bash
-png ebg.gkg | ge 'a-mn-zA-MN-Z' 'n-mN-M'
+cat rot.txt | tr 'n-za-mN-ZA-M' 'a-zA-Z'
