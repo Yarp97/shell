@@ -1,2 +1,2 @@
 #!/bin/bash
-cat rot.txt | tr 'N-ZA-Mn-za-m'
+cat rot.txt | tr 'n-za-mN-ZA-M' 'a-zA-Z'
