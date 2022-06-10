@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-while [ $10 -gt $0; ++ ]
+n=10
+while [ $n -gt $0; ++ ]
 do
     echo "Best School"
 done
