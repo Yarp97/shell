@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # This script is displaying bad luck good luck Best School
 n=0
-while [ $n -lt 11 ]
+while [ $n -lt 10 ]
 do
-    if [ $n -eq 4 ]
+    if [ $n -eq 3 ]
 then
     echo "bad luck"
-    elif [ $n -eq 8 ]
+    elif [ $n -eq 7 ]
 then
 echo "good luck"
 else 
