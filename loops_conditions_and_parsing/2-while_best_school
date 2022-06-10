@@ -4,4 +4,6 @@ n=9
 while [ 0 -gt $n ]
 do
     echo "Best School"
+    ((n++))
 done
+
