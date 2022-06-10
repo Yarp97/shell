@@ -4,6 +4,6 @@ n=0
 while [ $n -lt 10 ]
 do
     echo "Best School"
-    (( n + 1 ))
+(( n=n+1 ))
 done
 
