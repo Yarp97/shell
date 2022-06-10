@@ -8,5 +8,6 @@ do
 	echo "Hi"
     else
 	echo "Best School"
-	        (( n=n+1 ))
+    fi
+    (( n=n+1 ))
 done
