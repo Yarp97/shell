@@ -8,7 +8,7 @@ do
     while [ $M -lt 60 ]
     do
 	echo "$M"
-	M=$M+1
+	(( M=$M+1 ))
     done
-    H=$H+1
+    (( H=$H+1 ))
     done
