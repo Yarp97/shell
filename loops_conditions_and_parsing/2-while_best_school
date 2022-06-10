@@ -3,6 +3,6 @@
 n=10
 while [ $n -gt 0 ];
 do
-    Best School
+    echo "Best School"
     n=$(($n-1))
 done
