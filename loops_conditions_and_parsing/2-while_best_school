@@ -4,5 +4,4 @@ n=10
 while [ $n -gt 0 ];
 do
     echo "Best School"
-    let BestSchool=$BestSchool+1
 done
