@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-times=10
-while [ $times -gt 0 ];
+n=10
+while [ $n -gt 0 ];
 do
     Best School
-    times=$(($times-1))
-    done
+    n=$(($n-1))
+done
