@@ -1,13 +1,20 @@
 #!/usr/bin/env bash
 # displays information about the School file
-n=School
-if [[ -e n ]]
+F="holbertonschool"
+
+if [ -e "$F" ]
 then
-    echo "school file exist"
-else
-    echo "school file does not exist"
-    if [[ -f n ]]
+    echo "school file exists"
+    if [ ! -s "$F" ]
+    then
+	echo "school file is empty"
+    else
+	echo "school file is not empty"
+    fi
+    if [ -f "$F" ]
     then
 	echo "school is a regular file"
     fi
-fi
+else
+    echo "school file does not exist"
+    fi
