@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# displays information about the School file
+n=School
+if [[ -e n ]]
+then
+    echo "school file exist"
+else
+    echo "school file does not exist"
+    if [[ -f n ]]
+    then
+	echo "school is a regular file"
+    fi
+fi
