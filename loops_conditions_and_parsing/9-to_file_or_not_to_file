@@ -4,14 +4,11 @@ v="school"
 if [ -e "$v" ]
 then
     echo "school file exists"
-    if [ -s "$v" ]
+    if [ ! -s "$v" ]
     then
 	echo "school file is empty"
     else
-	if [ ! -s "$v" ]
-	then
-	    echo "school file is not empty"
-	    fi
+	echo "school file is not empty"
     fi
     if [ -f "$v" ]
     then
