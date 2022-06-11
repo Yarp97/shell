@@ -3,7 +3,7 @@
 v="school"
 if [ -e "$v" ]
 then
-    echo"school file exist"
+    echo "school file exists"
     if [ -s "$v" ]
     then
 	echo "school file is empty"
