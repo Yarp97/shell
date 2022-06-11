@@ -15,5 +15,5 @@ then
 	echo "school is a regular file"
     fi
 else
-    echo "school file dont not exit"
+    echo "school file does not exit"
 fi
