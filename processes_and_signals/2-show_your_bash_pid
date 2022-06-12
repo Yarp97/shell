@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # This script is displaying
+# shellcheck disable=SC2009
 ps -fux
