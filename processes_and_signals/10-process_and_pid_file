@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Creates the file /var/run/holbertonscript.pid containing its PID
+# Displays 'To infinity and beyond'
+# Displays 'I hate the kill command' 
+# Displays 'Y U no love me?!'
+# Deletes the file /var/run/holbertonscript.pid and
+sudo touch /var/run/holbertonscript.pid
+sudo bash -c 'echo $$ > /var/run/holbertonscript.pid'
+while true
+do
+    echo "To infinity and beyond"
+        sleep 2
+	    trap 'echo "I hate the kill command"; sudo rm /var/run/holbertonscript.pid; exit' SIGTERM
+	        trap 'echo "Y U no love me?!"' SIGINT
+		    trap 'sudo rm /var/run/holbertonscript.pid; exit' SIGQUIT
+done
